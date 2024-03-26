@@ -1,0 +1,21 @@
+{
+  "name": "gtts-server",
+  "version": "1.0.0",
+  "description": "simple express server for text to speach in any locale",
+  "main": "index.ts",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "siwalik",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "node-gtts": "^2.0.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "typescript": "^5.4.3"
+  }
+}
